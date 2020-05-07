@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#cu").click(function(){
+    $("#cities").load("cities.txt #cu");
+  });
+  $("#jp").click(function(){
+    $("#cities").load("cities.txt #jp");
+  });
+  $("#uk").click(function(){
+    $("#cities").load("cities.txt #uk");
+  });
+});
+</script>
+</head>
+
+<body>
+<div id="cities"><h2>Click on a country domain!</h2></div>
+
+<button id="cu">Cuba</button>
+<button id="jp">Japan</button>
+<button id="uk">United Kingdom</button>
+</body>
+
+</html>
