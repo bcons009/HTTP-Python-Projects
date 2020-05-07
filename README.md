@@ -7,7 +7,7 @@ A collection of HTML files and Python scripts with HTTP and SMTP communication f
 Server code for TCP communication. Compatible with TCPClient.py and the found.html and "fake.html" (page not found error test) links on index.html.
 
 ### mail_auth.cgi
-Uses an HTML submission form to send an email between two email addresses using the SMTP protocol.
+Uses an HTML submission form to send an email between two email addresses using the SMTP AUTH authenticated email protocol.
 
 ### ajax.html
 An HTML page using Ajax to dynamically display information.
